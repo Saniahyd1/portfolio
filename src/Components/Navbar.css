@@ -1,0 +1,101 @@
+/* ----- Base Navbar ----- */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+/* ----- Nav Links (Desktop) ----- */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* ----- Hamburger Icon ----- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+/* Rotate bars when open */
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* ----- Responsive for Mobile ----- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #111;
+    width: 200px;
+    display: none; /* ✅ Hidden by default */
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+    gap: 15px;
+    border-left: 2px solid #00bcd4;
+  }
+
+  /* ✅ Only visible when .open is active */
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+/* ----- Navbar Active State ----- */
+.navbar.active {            
+  background-color: #000;
+}   
+/* ----- Navbar Transition ----- */
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.resume-section h2,
+.resume-section p {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    }
