@@ -224,7 +224,7 @@ function App() {
       
       <h3>AI Enabled Disaster Management System Website  </h3>
       <p>Disaster Management System (2025) – Developed web solution with Python, HTML, CSS, PHP, and MySQL during internship.VIEW ON DESKTOP</p>
-      <a href="https://saniahyd1.github.io/Disaster-Management/" target="_blank" rel="noopener noreferrer">View Code</a>
+      <a href="https://saniahyd1.github.io/Disaster-Management/" target="_blank" rel="noopener noreferrer">View</a>
     </div>
 
 
@@ -233,7 +233,7 @@ function App() {
       
       <h3>Fetch_news Application</h3>
       <p>Fetch Disaster News is a Python program that automatically gathers the latest disaster-related news from trusted sources and presents them in a clear, organized format. </p>
-      <a href="https://saniahyd1.github.io/Fetch-news/" target="_blank" rel="noopener noreferrer">View Code</a>
+      <a href="https://saniahyd1.github.io/Fetch-news/" target="_blank" rel="noopener noreferrer">View</a>
     </div>
 
     
@@ -241,25 +241,14 @@ function App() {
       
       <h3>GlamStore Website</h3>
       <p>Winner of the Hackathon — Built with React.js in just 3 hours! A modern e-commerce MVP (Minimum Viable Product) rapidly developed during a hackathon, leading our team to win 1st prize.</p>
-      <a href="https://miniproject-pi-lemon.vercel.app/" target="_blank" rel="noopener noreferrer">View Code</a>
+      <a href="https://miniproject-pi-lemon.vercel.app/" target="_blank" rel="noopener noreferrer">View</a>
     </div>
 
         <div className="project-card">
      
-      <h3>Currently developing – Guest House Website</h3>
-      <p>Designing and developing a responsive website for a guest house client. Implementing booking functionality, image galleries, and contact forms. Building a modern, responsive website for a guest house using React.js. </p>
-        <h3>
-        &nbsp;
-        <span style={{
-          background: "#df9620ff",
-          color: "#333",
-          padding: "2px 8px",
-          borderRadius: "10px",
-          fontSize: "0.9em"
-        }}>
-          In Progress
-        </span>
-      </h3>
+      <h3> Guest House Website</h3>
+      <p>Developed and deployed a full-stack website for Hill Street Service Apartment using Next.js with TypeScript (TSX), Prisma, and Supabase, focusing on performance, scalability, and responsive design. </p>
+      <a href="https://www.hillstreet.in/" target="_blank" rel="noopener noreferrer">View</a>
 
     </div>
   </div>
