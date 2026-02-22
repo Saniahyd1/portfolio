@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import { Typewriter } from 'react-simple-typewriter';
 
 
-import profileImg from './assets/profileimg.jpg';
+import profileImg from './assets/profileimg.jpeg';
 
 import { FaCopy, FaGithub, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 
@@ -96,6 +96,7 @@ function App() {
                 width: '100%',
                 maxWidth: '225px',
                 height: 'auto',
+                boxShadow: '0 25px 75px rgba(19, 8, 0, 0.46)',
                 borderRadius: '50%',
                 animation: 'float 3s ease-in-out infinite',
               }}
