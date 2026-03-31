@@ -5,26 +5,22 @@ import Navbar from './Components/Navbar';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaCopy, FaCheck, FaGithub, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 import profileImg from './assets/profileimg.jpeg';
-
 function App() {
   const [copied, setCopied]       = useState(false);
   const [visibleCerts, setVisibleCerts] = useState({});
   const [formStatus, setFormStatus] = useState('idle'); // idle | sending | success | error
   const formRef = useRef();
-
   const handleCopy = () => {
     navigator.clipboard.writeText("Saniahyd1@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormStatus('sending');
-
     emailjs.sendForm(
       'service_eki968h',   // 🔁 replace
-      '__ejs-test-mail-service__',  // 🔁 replace
+      'template_3gxu137',  // 🔁 replace
       formRef.current,
       'q8_fuRjhFSq2uG79w'    // 🔁 replace
     )
@@ -33,10 +29,11 @@ function App() {
       formRef.current.reset();
       setTimeout(() => setFormStatus('idle'), 4000);
     })
-    .catch(() => {
-      setFormStatus('error');
-      setTimeout(() => setFormStatus('idle'), 4000);
-    });
+.catch((err) => {
+  console.log('EmailJS Error:', err);  // open browser console to read it
+  setFormStatus('error');
+  setTimeout(() => setFormStatus('idle'), 4000);
+});;
   };
 
   useEffect(() => {
