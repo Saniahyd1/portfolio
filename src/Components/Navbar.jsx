@@ -8,17 +8,17 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Sania Sultana</div>
+      <div className="logo">Sania.</div>
 
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
-        <a href="#about" onClick={() => setIsOpen(false)}>About Me</a>
-        <a href="#skills"onClick={() =>setIsOpen(false)}>Skills</a>
-        <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
-        <a href="#achievements" onClick={() =>setIsOpen(false)}>Achievements</a>
-       {/* <a href="#experience" onClick={() =>setIsOpen(false)}>Experience</a>*/}
-        <a href="#resume" onClick={() =>setIsOpen(false)}>Resume</a>
-          <a href="#contact" onClick={() => setIsOpen(false)}>Contact Me</a>
+        
+        <a href="#about" onClick={() => setIsOpen(false)}>ABOUT</a>
+        <a href="#skills"onClick={() =>setIsOpen(false)}>SKILLS</a>
+        <a href="#projects" onClick={() => setIsOpen(false)}>PROJECTS</a>
+        
+        <a href="#experience" onClick={() =>setIsOpen(false)}>EXPERIENCE</a>
+        <a href="#resume" onClick={() =>setIsOpen(false)}>RESUME</a>
+          <a href="#contact" onClick={() => setIsOpen(false)}>CONTACT</a>
 
       </div>
 
