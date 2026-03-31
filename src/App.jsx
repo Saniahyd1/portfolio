@@ -129,7 +129,7 @@ function App() {
 
       {/* ── About ────────────────────────────────────── */}
       <section id="about">
-        <h2>About Me</h2>
+        <h1>About Me</h1>
         <p>
           I'm a dedicated Full Stack Developer currently pursuing Master's of Computer
           Applications (MCA) from Osmania University while working as a freelancer.
@@ -161,8 +161,8 @@ function App() {
                 { name: "React.js",          pct: 85, gold: false },
                 { name: "Python",            pct: 80, gold: false },
                 { name: "HTML5 & CSS3",      pct: 92, gold: false },
-                { name: "Node.js / Express", pct: 72, gold: true  },
-                { name: "SQL / MongoDB",     pct: 70, gold: true  },
+                { name: "Node.js / Express", pct: 72, gold: false  },
+                { name: "SQL / MongoDB",     pct: 70, gold: false },
               ].map((s) => (
                 <div className="skill-bar-row" key={s.name}>
                   <div className="skill-bar-meta">
@@ -232,7 +232,7 @@ function App() {
 
       {/* ── Projects ─────────────────────────────────── */}
       <section id="projects">
-        <h2>Projects & Experience</h2>
+        <h1>Projects & Experience</h1>
         <div className="projects-row">
           <div className="project-card">
             <h3>AI Enabled Disaster Management System Website</h3>

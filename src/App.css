@@ -61,10 +61,11 @@
   animation: fadeInFloat 2.5s ease-in-out forwards, float 3s ease-in-out infinite;
 }
 
-#about h2, #projects h2, #contact h2 #skills h2{
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #0a2121;
+#about h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
+  color: #0d4a4a;
 }
 #about p, #contact p {
   font-size: 1.1rem;
@@ -246,9 +247,12 @@
   
 }
 
-.resume-section h2 {
+.resume-section h1 {
   font-size: 2rem;
-  color: #0a2121;
+  color: #0d4a4a;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -298,9 +302,12 @@
 }
 
 .achievements-section h2 {
-  font-size: 2rem;
+  
   margin-bottom: 40px;
-  color: #333;
+  color: #0d4a4a;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
 }
 
 .achievements-scroll {
@@ -392,6 +399,15 @@
   border-radius: 8px;
   display: block;
   transition: opacity 0.3s ease-in-out;
+}
+#projects h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0d4a4a;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
+
 }
 .projects-row {
   display: flex;
