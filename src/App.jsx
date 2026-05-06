@@ -160,6 +160,7 @@ function App() {
                 { name: "JavaScript / ES6+", pct: 88, gold: false },
                 { name: "React.js",          pct: 85, gold: false },
                 { name: "Python",            pct: 80, gold: false },
+                { name: "Java",              pct: 70, gold: false },
                 { name: "HTML5 & CSS3",      pct: 92, gold: false },
                 { name: "Node.js / Express", pct: 72, gold: false  },
                 { name: "SQL / MongoDB",     pct: 70, gold: false },
@@ -253,6 +254,11 @@ function App() {
             <h3>Guest House Website</h3>
             <p>Developed and deployed a full-stack website for Hill Street Service Apartment using Next.js with TypeScript, Prisma, and Supabase, focusing on performance and responsive design.</p>
             <a href="https://www.hillstreet.in/" target="_blank" rel="noopener noreferrer">View</a>
+          </div>
+          <div className="project-card">
+            <h3>Hangman-Game</h3>
+            <p>Developed a responsive Hangman game using React with dynamic state management and real-time visual progress tracking. Presented the project at a college-organized IT exhibition, where it was selected and showcased in the second level of competition. </p>
+            <a href="https://hangman-game-five-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">View</a>
           </div>
         </div>
       </section>
