@@ -16,5 +16,5 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(rgb(226, 215, 208), rgb(233, 202, 100), rgba(197, 222, 222, 0.992));
+  background: linear-gradient(rgba(239, 219, 206, 0.959), rgb(233, 202, 100), rgba(197, 222, 222, 0.992));
 }
