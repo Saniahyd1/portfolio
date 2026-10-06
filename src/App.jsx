@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import { Typewriter } from 'react-simple-typewriter';
 import { FaCopy, FaCheck, FaGithub, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
-import profileImg from './assets/profileimg.jpeg';
+import profileImg from './assets/Sania.jpg';
 function App() {
   const [copied, setCopied]       = useState(false);
   const [visibleCerts, setVisibleCerts] = useState({});
